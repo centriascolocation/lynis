@@ -1,6 +1,16 @@
 Getting started
 ===============
 
+Pre-Requirements
+----------------
+
+You won't need so much, since lynis is completely written in bash with no dependencies. However, it is a good idea to have the following programs installed along with bash:
+
+  - curl and wget
+  - openssl
+  - which (package names in RedHat: 'which', in Debian: 'debianutils')
+
+
 Download and extract to a local directory
 -----------------------------------------
 
@@ -11,7 +21,7 @@ curl -s -L https://raw.githubusercontent.com/centriascolocation/lynis/1.2.1/get-
 The first tests
 ---------------
 
-Assume you've successfully downloaded version 2.4.8:
+Assume you've successfully downloaded the latest version:
 
 ```
 cd lynis
