@@ -14,7 +14,7 @@ The first tests
 Assume you've successfully downloaded version 2.4.8:
 
 ```
-cd lynis-2.4.8
+cd lynis
 ./lynis audit system --auditor "Michael Krieg <michael@centrias.de>" --pentest
 ```
 
