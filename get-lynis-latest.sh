@@ -29,7 +29,7 @@ if [ "$_SHA1" == "$SHA1_HASH" ]; then
     echo "extracting lynis and show version and update info ..."
     tar xfz lynis-${VERSION}.tar.gz
     (
-        cd lynis-${VERSION}
+        cd lynis
         ./lynis show version ; ./lynis update info
         echo "Lynis is ready to use. Please find it here: $(pwd)"
     )
