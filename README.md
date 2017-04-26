@@ -4,7 +4,7 @@ Getting started
 Pre-Requirements
 ----------------
 
-You won't need so much, since lynis is completely written in bash with no dependencies. However, it is a good idea to have the following programs installed along with bash:
+You won't need so much, since [lynis](https://cisofy.com/lynis/) is completely written in bash with no dependencies. However, it is a good idea to have the following programs installed along with bash:
 
   - curl and wget
   - openssl
