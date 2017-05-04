@@ -15,7 +15,7 @@ Download and extract to a local directory
 -----------------------------------------
 
 ```
-curl -s -L https://raw.githubusercontent.com/centriascolocation/lynis/1.2.1/get-lynis-latest.sh | bash
+curl -s -L https://raw.githubusercontent.com/centriascolocation/lynis/1.2.2/get-lynis-latest.sh | bash
 ```
 
 The first tests
