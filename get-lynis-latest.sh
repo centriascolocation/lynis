@@ -1,8 +1,8 @@
 #/usr/bin/env sh
 
-VERSION=2.5.0
-SHA1_HASH="1407b2115aa2c4d45dee6043d19c613d35bfec90"
-SHA256_HAHS="af05f5e2474da29d5ad0921a67e422a9c4d6eddef40e64d8b218a309477de416"
+VERSION=2.5.2
+SHA1_HASH="62b16386b9f0a4c8387eb2890347363ceef7be16"
+SHA256_HAHS="6b4dc74ec0faa009fc5d34f8ab85895e53c6f4f02bc160377905dcb95b0585a1"
 
 function echo_exit()
 {
@@ -33,6 +33,6 @@ if [ "$_SHA1" == "$SHA1_HASH" ]; then
         ./lynis show version ; ./lynis update info
         echo "Lynis is ready to use. Please find it here: $(pwd)"
     )
-else 
+else
     echo_exit "download file integrity could not be verified! (exit)"
 fi
