@@ -15,7 +15,7 @@ Download and extract to a local directory
 -----------------------------------------
 
 ```
-curl -s -L https://raw.githubusercontent.com/centriascolocation/lynis/1.2.3/get-lynis-latest.sh | bash
+curl -s -L https://raw.githubusercontent.com/centriascolocation/lynis/2.7.5/get-lynis-latest.sh | bash
 ```
 
 The first tests
@@ -28,5 +28,5 @@ cd lynis
 ./lynis audit system --auditor "Michael Krieg <michael@centrias.de>" --pentest
 ```
 
-Hint: you could omit the "--pentest" option for a full privileged (root/sudo) audit!
+Hint: you could omit the "--pentest" option for a non-privileged audit!
 
