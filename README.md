@@ -8,8 +8,6 @@ You won't need so much, since [lynis](https://cisofy.com/lynis/) is completely w
 
   - curl and wget
   - openssl
-  - which (package names in RedHat: 'which', in Debian: 'debianutils')
-
 
 Download and extract to a local directory
 -----------------------------------------
@@ -24,9 +22,11 @@ The first tests
 Assume you've successfully downloaded the latest version:
 
 ```
-cd lynis
-./lynis audit system --auditor "Michael Krieg <michael@centrias.de>" --pentest
+
+  cd lynis
+  ./lynis audit system --auditor "Michael Krieg <michael@centrias.de>" --pentest
+
 ```
 
-Hint: you could omit the "--pentest" option for a non-privileged audit!
+Hint: you could omit the "--pentest" option for a full-privileged audit!
 
